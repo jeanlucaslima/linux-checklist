@@ -1,6 +1,6 @@
 # Fresh New Linux install
 
-## basics & utilities
+### basics & utilities
 
 Set terminal profile preferences:
 
@@ -12,14 +12,14 @@ sudo apt-get update
 sudo apt-get install wget curl vim build-essential git htop
 ```
 
-## zsh
+### zsh
 ```
 sudo apt-get install zsh
 sudo chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## git
+### git
 ```
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
@@ -28,12 +28,12 @@ git config --global push.default simple
 git config --global credential.helper 'cache --timeout=3600' # desired cache timeout in seconds
 ```
 
-## python
+### python
 ```
 sudo apt-get python-pip python-dev python-setuptools pylint python-software-properties -y
 ```
 
-## nvm
+### nvm
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 Add nvm plugin to oh-my-zsh
@@ -83,7 +83,7 @@ rbenv local 2.2.3
 ruby -v
 ```
 
-## postgres
+### postgres
 ```
 sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
 wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
@@ -100,3 +100,10 @@ sudo -u postgres createuser chris -s
 sudo -u postgres psql
 postgres=# \password chris
 ```
+
+## Contributing
+Just send a PR :-)
+
+## Authors
+
+* @jeanleonino
