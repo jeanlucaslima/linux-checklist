@@ -43,6 +43,16 @@ nvm use 0.12.7
 nvm alias default 0.12.7
 ```
 
+Interesting packages:
+```
+npm install -g ember-cli
+npm install -g phantomjs2
+npm install -g bower
+npm install -g jshint
+npm install -g grunt-cli
+npm install -g gulp-cli
+```
+
 #rbenv
 Install dependencies:
 ```
@@ -71,4 +81,22 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv local 2.2.3
 ruby -v
+```
+
+## postgres
+```
+sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-common
+sudo apt-get install postgresql-9.3 libpq-dev
+```
+
+Creating first user:
+```
+sudo -u postgres createuser chris -s
+
+# If you would like to set a password for the user, you can do the following
+sudo -u postgres psql
+postgres=# \password chris
 ```
