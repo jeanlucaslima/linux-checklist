@@ -99,3 +99,5 @@ sudo -u postgres psql
 postgres=# \password chris
 ```
 
+## ImageMagick
+sudo apt-get install imagemagick --fix-missing 
