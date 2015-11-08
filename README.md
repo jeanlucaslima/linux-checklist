@@ -7,11 +7,11 @@ PS: This is a first version, being tested. With time more distros will be added.
 
 ### basics & utilities
 
-[ ] Set terminal profile preferences:
-  [ ] The end command restarts console
-  [ ] color scheme / background
-[ ] Run ```sudo apt-get update```
-[ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
+- [ ] Set terminal profile preferences:
+  - [ ] The end command restarts console
+  - [ ] color scheme / background
+- [ ] Run ```sudo apt-get update```
+- [ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
 
 ### zsh and oh-my-zsh
 ```
