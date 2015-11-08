@@ -13,4 +13,5 @@ Just send a PR :-)
 ## Authors
 
 * [Jean Lucas](https://github.com/jeanleonino/)
-
+* [Nassor](https://github.com/nassor)
+* [Christian Wits](https://github.com/ChristianWitts)
