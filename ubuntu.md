@@ -65,7 +65,7 @@ Add rbenv plugin to zsh to make it work smooth:
 ```zsh
 vim ~/.zshrc
 ```
-Add "rbenv" to oh-my-zsh plugin list. 
+Add "rbenv" to oh-my-zsh plugin list.
 
 ```zsh
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -101,5 +101,13 @@ postgres=# \password chris
 
 ## ImageMagick
 ```zsh
-sudo apt-get install imagemagick --fix-missing 
+sudo apt-get install imagemagick --fix-missing
+```
+
+## MongoDB
+```zsh
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
 ```
