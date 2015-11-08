@@ -111,3 +111,19 @@ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" 
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
+
+### Go
+```zsh
+sudo apt-get install golang
+```
+
+### gvm (Go Version Manager)
+```zsh
+zsh < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+gvm install go1.4
+gvm use go1.4
+gvm install go1.5  # You'll need a prior version of Go installed in order to bootstrap the installation of Go 1.5+
+```
+
+[More Info][gvm_github]
+[gvm_github]: https://github.com/moovweb/gvm
