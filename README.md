@@ -53,7 +53,7 @@ npm install -g grunt-cli
 npm install -g gulp-cli
 ```
 
-#rbenv
+##rbenv
 Install dependencies:
 ```
 sudo apt-get update
@@ -67,7 +67,7 @@ Add rbenv plugin to zsh to make it work smooth:
 ```
 vim ~/.zshrc
 ```
-Add "rbenv" to oh-my-zsh plugin list. TODO: create setion how to install plugin
+Add "rbenv" to oh-my-zsh plugin list. 
 
 ```
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
