@@ -6,3 +6,11 @@ PS: This is a first version, being tested. With time more distros will be added.
 
 Check the list for [Ubuntu](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md)
 
+
+## Contributing
+Just send a PR :-)
+
+## Authors
+
+* [Jean Lucas](https://github.com/jeanleonino/)
+

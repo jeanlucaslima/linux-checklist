@@ -99,9 +99,3 @@ sudo -u postgres psql
 postgres=# \password chris
 ```
 
-## Contributing
-Just send a PR :-)
-
-## Authors
-
-* @jeanleonino
