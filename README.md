@@ -1,18 +1,19 @@
 # Fresh New Linux install
+This is a set of checklists for when you have a fresh new Linux installation and isn't sure what to install. Feel free to copy, change, and redistribute. 
+
+PS: This is a first version, being tested. With time more distros will be added.
+
+# Ubuntu
 
 ### basics & utilities
 
-Set terminal profile preferences:
+[ ] Set terminal profile preferences:
+  [ ] The end command restarts console
+  [ ] color scheme / background
+[ ] Run ```sudo apt-get update```
+[ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
 
-* The end command restarts console
-* color scheme / background
-
-```
-sudo apt-get update
-sudo apt-get install wget curl vim build-essential git htop
-```
-
-### zsh
+### zsh and oh-my-zsh
 ```
 sudo apt-get install zsh
 sudo chsh -s /usr/bin/zsh
@@ -21,6 +22,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ### git
 ```
+sudo apt-get install git
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
