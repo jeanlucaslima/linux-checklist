@@ -1,1 +1,1 @@
-https://wiki.archlinux.org/index.php/Beginners%27_guide
+https://wiki.archlinux.org/index.php/General_recommendations
