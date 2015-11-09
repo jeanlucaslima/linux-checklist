@@ -3,9 +3,6 @@
 
 ### basics & utilities
 
-- [ ] Set terminal profile preferences:
-  - [ ] The end command restarts console
-  - [ ] color scheme / background
 - [ ] Run ```sudo apt-get update```
 - [ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
 
