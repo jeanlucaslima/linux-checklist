@@ -1,5 +1,5 @@
 # Ubuntu
-* this was tested for Ubuntu 14.04 *
+Obs: This was tested for Ubuntu 14.04.
 
 ### basics & utilities
 
@@ -31,7 +31,7 @@ sudo apt-get python-pip python-dev python-setuptools pylint python-software-prop
 ### nvm
 ```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-Add nvm plugin to oh-my-zsh
+vim ~/.zshrc #Add nvm plugin to oh-my-zsh
 nvm ls-remote # pick your favorite version
 nvm install 0.12.7 # change for your version
 nvm use 0.12.7
