@@ -4,7 +4,10 @@ Feel free to copy, change, and redistribute.
 
 PS: This is a first version, being tested. With time more distros will be added.
 
-Check the list for [Ubuntu](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md)
+## Distros 
+
+* [Ubuntu](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md)
+* [Arch](https://github.com/jeanleonino/linux-checklist/blob/master/arch-linux.md)
 
 
 ## Contributing
