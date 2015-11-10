@@ -25,7 +25,7 @@ git config --global credential.helper 'cache --timeout=3600' # desired cache tim
 
 ### python
 ```zsh
-sudo apt-get python-pip python-dev python-setuptools pylint python-software-properties -y
+sudo apt-get install python-pip python-dev python-setuptools pylint python-software-properties -y
 ```
 
 ### nvm
