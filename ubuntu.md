@@ -6,13 +6,6 @@ Obs: This was tested for Ubuntu 14.04.
 - [ ] Run ```sudo apt-get update```
 - [ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
 
-### zsh and oh-my-zsh
-```zsh
-sudo apt-get install zsh
-sudo chsh -s /usr/bin/zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
 ### git
 ```zsh
 sudo apt-get install git
@@ -22,6 +15,13 @@ git config --global user.email "YOUR@EMAIL.com"
 git config --global push.default simple
 git config --global credential.helper 'cache --timeout=3600' # desired cache timeout in seconds
 git config --global core.editor vim # pick your favorite editor
+```
+
+### zsh and oh-my-zsh
+```zsh
+sudo apt-get install zsh
+sudo chsh -s /usr/bin/zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ### python
