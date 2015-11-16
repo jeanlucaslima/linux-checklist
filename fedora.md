@@ -15,4 +15,4 @@ git config --global credential.helper 'cache --timeout=3600' # desired cache tim
 git config --global core.editor vim # pick your favorite editor
 ```
 
-###
+### Install RPM Fusion Repositories
