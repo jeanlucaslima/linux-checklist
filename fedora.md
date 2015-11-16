@@ -1,6 +1,4 @@
-
-# Ubuntu
-Obs: This was tested for Ubuntu 14.04.
+# Fedora
 
 ### Make sure system is up-to-date
 
