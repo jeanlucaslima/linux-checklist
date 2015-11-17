@@ -26,7 +26,7 @@ git config --global core.editor vim # pick your favorite editor
 ```bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'```
 
 ### Install Gnome Shell Extensions
-1. Go to https://extensions.gnome.org/
+1. Go to https://extensions.gnome.org/ (IN FIREFOX!)
 2. If the prompt to enable "Gnome Shell Integration" extension shows up, hit "always allow"
 3. Install whatever extensions you like
 
