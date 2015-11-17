@@ -23,6 +23,4 @@ git config --global core.editor vim # pick your favorite editor
 ```sudo dnf install gnome-tweak-tool```
 
 ### Install Fedy
-```
-bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
-```
+```bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'```
