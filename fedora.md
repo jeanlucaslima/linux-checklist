@@ -32,4 +32,5 @@ git config --global core.editor vim # pick your favorite editor
 
 Recommended:
 * [Battery Percentage Indicator](https://extensions.gnome.org/extension/23/battery-percentage-indicator/)
+* 
 
