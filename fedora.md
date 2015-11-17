@@ -29,6 +29,7 @@ git config --global core.editor vim # pick your favorite editor
 1. Go to https://extensions.gnome.org/
 2. If the prompt to enable [FIND NAME] extension, and hit "always allow"
 3. Install whatever extensions you like
+
 Recommended:
 * [Battery Percentage Indicator](https://extensions.gnome.org/extension/23/battery-percentage-indicator/)
 
