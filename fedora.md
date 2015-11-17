@@ -1,6 +1,6 @@
 # Fedora
 
-### Make sure system is up-to-date
+### Ensure system is up-to-date
 ```sudo dnf update```
 
 ### Install and configure git
