@@ -8,6 +8,7 @@ PS: This is a first version, being tested. With time more distros will be added.
 
 * [Ubuntu](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md)
 * [Arch](https://github.com/jeanleonino/linux-checklist/blob/master/arch-linux.md)
+* [Fedora](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md)
 
 
 ## Contributing
