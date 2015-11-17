@@ -19,6 +19,9 @@ git config --global core.editor vim # pick your favorite editor
 2. Download free + nonfree repos for matching Fedora version number
 3. Click on them, and click install when it opens "Software" application
 
+### Install Gnome Tweak Tool
+```sudo dnf install gnome-tweak-tool```
+
 ### Install Fedy
 ```
 bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
