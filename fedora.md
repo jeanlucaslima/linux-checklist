@@ -2,7 +2,8 @@
 
 ### Ensure system is up-to-date
 ```zsh
-sudo dnf update```
+sudo dnf update
+```
 
 ### Install and configure git
 ```zsh
