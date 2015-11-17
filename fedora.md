@@ -1,7 +1,7 @@
 # Fedora
 
 ### Ensure system is up-to-date
-```sudo dnf update```
+```zshsudo dnf update```
 
 ### Install and configure git
 ```zsh
