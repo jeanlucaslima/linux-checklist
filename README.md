@@ -8,6 +8,7 @@ PS: This is a first version, being tested. With time more distros will be added.
 
 * [Ubuntu](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md)
 * [Arch](https://github.com/jeanleonino/linux-checklist/blob/master/arch-linux.md)
+* [Fedora](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md)
 
 
 ## Contributing
@@ -21,3 +22,4 @@ Just send a PR :-)
 * [Nihey](https://github.com/nihey)
 * [Fabio](https://github.com/fblg)
 * [Joe Schlimmer](https://github.com/Wartz)
+* [Rees Draminski](https://github.com/reesdraminski)
