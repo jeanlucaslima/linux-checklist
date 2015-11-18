@@ -24,9 +24,14 @@ General utilities for to use Ubuntu.
 ### basics & utilities
 - [ ] Run ```sudo apt-get update```
 - [ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
+
 ### git
 ```zsh
 sudo apt-get install git
+``` 
+
+If you are a developer, these configurations are interesting: 
+```zsh
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
@@ -34,6 +39,7 @@ git config --global push.default simple
 git config --global credential.helper 'cache --timeout=3600' # desired cache timeout in seconds
 git config --global core.editor vim # pick your favorite editor
 ```
+
 ### zsh and oh-my-zsh
 ```zsh
 sudo apt-get install zsh
