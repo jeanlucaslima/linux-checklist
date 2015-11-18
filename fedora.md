@@ -26,11 +26,14 @@ git config --global core.editor vim # pick your favorite editor
 ```bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'```
 
 ### Install Gnome Shell Extensions
-1. Go to https://extensions.gnome.org/
-2. If the prompt to enable [FIND NAME] extension, and hit "always allow"
+1. Go to https://extensions.gnome.org/ (IN FIREFOX!)
+2. If the prompt to enable "Gnome Shell Integration" extension shows up, hit "always allow"
 3. Install whatever extensions you like
 
 Recommended:
 * [Battery Percentage Indicator](https://extensions.gnome.org/extension/23/battery-percentage-indicator/)
-* 
+* [Hide App Icon](https://extensions.gnome.org/extension/810/hide-app-icon/)
+* [Impatience](https://extensions.gnome.org/extension/277/impatience/)
+* [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
+* [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/)
 
