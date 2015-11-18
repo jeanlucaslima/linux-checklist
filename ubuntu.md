@@ -123,6 +123,12 @@ gvm use go1.4
 gvm install go1.5  # You'll need a prior version of Go installed in order to bootstrap the installation of Go 1.5+
 ```
 
+### erlang
+```zsh
+sudo apt-get update
+sudo apt-get install erlang erlang-doc
+```
+
 ### elixir
 ```zsh
 wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
@@ -130,12 +136,24 @@ sudo apt-get update
 sudo apt-get install elixir
 ```
 
-### erlang
+It is interesting to install Hex. Hex is necessary to get a Phoenix app running (by installing dependencies) and to install any extra dependencies we might need along the way.
+
 ```zsh
-sudo apt-get update
-sudo apt-get install erlang erlang-doc
+mix local.hex 
 ```
 
+### phoenix framework
+```zsh
+mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v1.0.3/phoenix_new-1.0.3.ez
+```
+
+It is also recommended to install ```inotify-tools```, that is a C library that acts as filesystem watcher, thus helping with live reloading. To install:
+
+```zsh
+sudo apt-get install inotify-tools
+```
+
+You may want to check more info about Phoenix framework install here: http://www.phoenixframework.org/docs/installation
 [More Info][gvm_github]
 
 ### vim
