@@ -123,6 +123,19 @@ gvm use go1.4
 gvm install go1.5  # You'll need a prior version of Go installed in order to bootstrap the installation of Go 1.5+
 ```
 
+### elixir
+```zsh
+wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+sudo apt-get update
+sudo apt-get install elixir
+```
+
+### erlang
+```zsh
+sudo apt-get update
+sudo apt-get install erlang erlang-doc
+```
+
 [More Info][gvm_github]
 
 ### vim
