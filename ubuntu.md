@@ -1,6 +1,25 @@
 # Ubuntu
 Obs: This was tested for Ubuntu 14.04.
 
+## Summary
+
+- [git](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#git)
+- [zsh & oh-my-zsh](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#zsh-and-oh-my-zsh)
+- [python](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#python)
+- [nvm - node version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#nvm)
+- [rbenv](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#rbenv)
+- [PostgreSQL](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#postgres)
+- [ImageMagick](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#imagemagick)
+- [MongoDB](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#mongodb)
+- [Golang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#go)
+- [gvm - go version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#gvm-go-version-manager)
+- [erlang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#erlang)
+- [elixir](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#elixir)
+- [phoenix](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#phoenix-framework)
+- [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
+
+## General
+
 ### basics & utilities
 
 - [ ] Run ```sudo apt-get update```
@@ -24,6 +43,14 @@ sudo chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+### ImageMagick
+```zsh
+sudo apt-get install imagemagick --fix-missing
+```
+
+TBA: chrome, atom, emacs
+
+## Languages and Development Frameworks
 ### python
 ```zsh
 sudo apt-get install python-pip python-dev python-setuptools pylint python-software-properties -y
@@ -41,15 +68,19 @@ nvm alias default 0.12.7
 
 Interesting packages:
 ```zsh
-npm install -g ember-cli
-npm install -g phantomjs2
-npm install -g bower
 npm install -g jshint
 npm install -g grunt-cli
 npm install -g gulp-cli
 ```
 
-##rbenv
+### ember
+```zsh
+npm install -g phantomjs2
+npm install -g bower
+npm install -g ember-cli
+```
+
+### rbenv
 Install dependencies:
 ```zsh
 sudo apt-get update
@@ -97,12 +128,7 @@ sudo -u postgres psql
 postgres=# \password chris
 ```
 
-## ImageMagick
-```zsh
-sudo apt-get install imagemagick --fix-missing
-```
-
-## MongoDB
+### MongoDB
 ```zsh
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
@@ -122,6 +148,7 @@ gvm install go1.4
 gvm use go1.4
 gvm install go1.5  # You'll need a prior version of Go installed in order to bootstrap the installation of Go 1.5+
 ```
+[More Info][gvm_github]
 
 ### erlang
 ```zsh
@@ -154,7 +181,6 @@ sudo apt-get install inotify-tools
 ```
 
 You may want to check more info about Phoenix framework install here: http://www.phoenixframework.org/docs/installation
-[More Info][gvm_github]
 
 ### vim
 
