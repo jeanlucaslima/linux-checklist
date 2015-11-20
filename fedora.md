@@ -1,12 +1,11 @@
 # Fedora
 
-
 ## Summary
 - [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#git)
-- [RPM Fusion repositories](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#RPM-Fusion-repositories)
-- [Gnome Tweak Tool](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Tweak-Tool)
-- [Fedy](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Fedy)
-- [Gnome Shell Extensions](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Shell-Extensions)
+- [RPM Fusion repositories](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#rpm-fusion-repositories)
+- [Gnome Tweak Tool](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#gnome-tweak-tool)
+- [Fedy](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#fedy)
+- [Gnome Shell Extensions](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#gnome-shell-extensions)
 
 ### Ensure system is up-to-date
 ```sudo dnf update```
