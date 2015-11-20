@@ -4,8 +4,8 @@
 ## Summary
 - [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#git)
 - [RPM Fusion repositories](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#RPM-Fusion-repositories)
-- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Tweak-Tool)
-- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Fedy)
+- [Gnome Tweak Tool](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Tweak-Tool)
+- [Fedy](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Fedy)
 
 ### Ensure system is up-to-date
 ```sudo dnf update```
