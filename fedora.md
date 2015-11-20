@@ -1,5 +1,9 @@
 # Fedora
 
+
+## Summary
+- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Install and configure git)
+
 ### Ensure system is up-to-date
 ```sudo dnf update```
 
