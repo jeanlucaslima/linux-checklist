@@ -2,12 +2,12 @@
 
 
 ## Summary
-- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Install and configure git)
+- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#git)
 
 ### Ensure system is up-to-date
 ```sudo dnf update```
 
-### Install and configure git
+### git
 ```zsh
 sudo dnf install git
 git config --global color.ui true
