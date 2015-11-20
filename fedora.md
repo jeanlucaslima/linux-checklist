@@ -3,6 +3,9 @@
 
 ## Summary
 - [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#git)
+- [RPM Fusion repositories](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#RPM-Fusion-repositories)
+- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Tweak-Tool)
+- [git](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Fedy)
 
 ### Ensure system is up-to-date
 ```sudo dnf update```
@@ -18,15 +21,15 @@ git config --global credential.helper 'cache --timeout=3600' # desired cache tim
 git config --global core.editor vim # pick your favorite editor
 ```
 
-### Install RPM Fusion repositories
+### RPM Fusion repositories
 1. Go to http://rpmfusion.org/Configuration
 2. Download free + nonfree repos for matching Fedora version number
 3. Click on them, and click install when it opens "Software" application
 
-### Install Gnome Tweak Tool
+### Gnome Tweak Tool
 ```sudo dnf install gnome-tweak-tool```
 
-### Install Fedy
+### Fedy
 ```bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'```
 
 ### Install Gnome Shell Extensions
