@@ -6,6 +6,7 @@
 - [RPM Fusion repositories](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#RPM-Fusion-repositories)
 - [Gnome Tweak Tool](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Tweak-Tool)
 - [Fedy](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Fedy)
+- [Gnome Shell Extensions](https://github.com/jeanleonino/linux-checklist/blob/master/fedora.md#Gnome-Shell-Extensions)
 
 ### Ensure system is up-to-date
 ```sudo dnf update```
@@ -32,7 +33,7 @@ git config --global core.editor vim # pick your favorite editor
 ### Fedy
 ```bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'```
 
-### Install Gnome Shell Extensions
+### Gnome Shell Extensions
 1. Go to https://extensions.gnome.org/ (IN FIREFOX!)
 2. If the prompt to enable "Gnome Shell Integration" extension shows up, hit "always allow"
 3. Install whatever extensions you like
