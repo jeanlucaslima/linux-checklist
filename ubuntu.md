@@ -27,9 +27,16 @@ Obs: This was tested for Ubuntu 14.04.
 ## General
 General utilities for to use Ubuntu. 
 
+### Unity Tweak Tool
+![Screenshot Unity Tweak Tool](http://screenshots.ubuntu.com/screenshots/u/unity-tweak-tool/10014_large.png)
+
+It can be installed from the Ubuntu Software Center, by searching “Unity tweak tool” and install it. Or you can [click here](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/).
+
 ### basics & utilities
-- [ ] Run ```sudo apt-get update```
-- [ ] Install basics ``` sudo apt-get install wget curl build-essential ```
+First steps and general update:
+- Run ```sudo apt-get update```
+- Install basics ``` sudo apt-get install wget curl build-essential ```
+- Install applications to deal with general files like zip, tar, rar:``` sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller ``` 
 
 ### htop
 htop is an interactive process viewer for Linux. It is much more friendly than top.
@@ -62,10 +69,25 @@ sudo chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+To effectively change the terminal shell, you have to go to the menu Edit -> Profiles -> choose default -> click Edit button -> on new window go to tab "Title and Command" and add "/usr/bin/zsh" to "Run a custom command", example:
+
+![Screenshot ZSH](http://i.imgur.com/y5hvbKC.png)
+
+You can see my zsh file ```~/.zshrc``` [clicking here](https://github.com/jeanleonino/dotfiles/blob/master/.zshrc).
+
 ### ImageMagick
 ```zsh
-sudo apt-get install imagemagick --fix-missing
+sudo apt-get install imagemagick --fix-missing -y
 ```
+
+### Gimp
+GIMP is an image manipulation software, alternative to Photoshop and handful for editions. 
+```sh
+sudo apt-get install gimp gimp-data gimp-plugin-registry gimp-data-extras
+```
+
+### Google Chrome
+Check [this](http://www.tecmint.com/install-google-chrome-in-debian-ubuntu-linux-mint/) tutorial.
 
 ### docker
 Installation
