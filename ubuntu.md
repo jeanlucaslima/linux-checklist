@@ -19,7 +19,7 @@ Obs: This was tested for Ubuntu 14.04.
   - [erlang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#erlang)
   - [elixir](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#elixir)
   - [phoenix](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#phoenix-framework)
--[Editors and IDEs](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#editors-and-ides)
+- [Editors and IDEs](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#editors-and-ides)
   - [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
   - [Sublime Text 3](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#sublime-text-3-64-bits)
   - [Atom](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#atom)
