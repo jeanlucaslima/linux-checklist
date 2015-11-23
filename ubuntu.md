@@ -4,6 +4,8 @@ Obs: This was tested for Ubuntu 14.04.
 ## Summary
 
 - [General](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#general)
+  - [basics and utilities](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#basics--utilities)
+  - [htop](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#htop)
   - [git](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#git)
   - [zsh & oh-my-zsh](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#zsh-and-oh-my-zsh)
   - [docker](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#docker)
@@ -27,16 +29,18 @@ Obs: This was tested for Ubuntu 14.04.
 ## General
 General utilities for to use Ubuntu. 
 
+### basics & utilities
+First steps and general update:
+
+- Run ```sudo apt-get update```
+- Install basics ``` sudo apt-get install wget curl build-essential ```
+- Install applications to deal with general files like zip, tar, rar:``` sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller ``` 
+- Laptop tools to save battery and some tweaks ``` sudo apt-get install laptop-mode-tools ``` 
+
 ### Unity Tweak Tool
 ![Screenshot Unity Tweak Tool](http://screenshots.ubuntu.com/screenshots/u/unity-tweak-tool/10014_large.png)
 
 It can be installed from the Ubuntu Software Center, by searching “Unity tweak tool” and install it. Or you can [click here](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/).
-
-### basics & utilities
-First steps and general update:
-- Run ```sudo apt-get update```
-- Install basics ``` sudo apt-get install wget curl build-essential ```
-- Install applications to deal with general files like zip, tar, rar:``` sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller ``` 
 
 ### htop
 htop is an interactive process viewer for Linux. It is much more friendly than top.
