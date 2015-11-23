@@ -3,20 +3,26 @@ Obs: This was tested for Ubuntu 14.04.
 
 ## Summary
 
-- [git](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#git)
-- [zsh & oh-my-zsh](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#zsh-and-oh-my-zsh)
-- [python](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#python)
-- [nvm - node version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#nvm)
-- [rbenv](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#rbenv)
-- [PostgreSQL](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#postgres)
-- [ImageMagick](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#imagemagick)
-- [MongoDB](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#mongodb)
-- [Golang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#go)
-- [gvm - go version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#gvm-go-version-manager)
-- [erlang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#erlang)
-- [elixir](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#elixir)
-- [phoenix](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#phoenix-framework)
-- [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
+- [General](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#general)
+  - [git](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#git)
+  - [zsh & oh-my-zsh](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#zsh-and-oh-my-zsh)
+  - [docker](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#docker)
+- [Languages and Development Frameworks](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#languages-and-development-frameworks)
+  - [python](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#python)
+  - [nvm - node version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#nvm)
+  - [rbenv](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#rbenv)
+  - [PostgreSQL](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#postgres)
+  - [ImageMagick](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#imagemagick)
+  - [MongoDB](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#mongodb)
+  - [Golang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#go)
+  - [gvm - go version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#gvm-go-version-manager)
+  - [erlang](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#erlang)
+  - [elixir](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#elixir)
+  - [phoenix](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#phoenix-framework)
+-[Editors and IDEs](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#editors-and-ides)
+  - [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
+  - [Sublime Text 3](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#sublime-text-3-64-bits)
+  - [Atom](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#atom)
 
 ## General
 General utilities for to use Ubuntu. 
@@ -46,12 +52,34 @@ sudo apt-get install zsh
 sudo chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
 ### ImageMagick
 ```zsh
 sudo apt-get install imagemagick --fix-missing
 ```
 
-TBA: chrome, atom, emacs
+### docker
+Installation
+```sh
+sudo apt-get install linux-image-extra-`uname -r`
+sudo apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main" | sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt-get update
+sudo apt-get install docker-engine
+```
+
+Enable forwarding with the Uncomplicated Firewall (defafult):
+```sh
+sudo nano /etc/default/ufw # or other editor
+```
+And replace ```DEFAULT_FORWARD_POLICY="DROP"``` with ```DEFAULT_FORWARD_POLICY="ACCEPT"``` and restart the firewall:
+```sh
+sudo ufw reload
+```
+
+More instructions available on [Docker website](https://docs.docker.com/engine/installation/ubuntulinux/).
+Consider adding the docker plugin to oh-my-zsh.
+
 
 ## Languages and Development Frameworks
 
@@ -186,6 +214,9 @@ sudo apt-get install inotify-tools
 
 You may want to check more info about Phoenix framework install here: http://www.phoenixframework.org/docs/installation
 
+## Editors and IDEs
+Some common editors for developers.
+
 ### vim
 Install Vundle to manage vim dependencies:
 ```
@@ -204,3 +235,57 @@ Inside vim, install all vim Vundle plugins:
 ~restart vim~
 
 [gvm_github]: https://github.com/moovweb/gvm
+
+### Sublime Text 3 64 bits
+
+Manually
+
+```sh
+wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb ~/ # or check link at http://www.sublimetext.com/3
+sudo dpkg -i sublime-text_build-3083_amd64.deb 
+```
+
+Through Package Manager
+
+```sh
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+```
+
+Install Package Control
+Check [packagecontrol.io](https://packagecontrol.io/installation)
+
+### Atom
+
+Manual
+
+```sh
+wget https://atom.io/download/deb
+sudo dpkg -i atom-amd64.deb
+```
+
+From Source
+
+Dependencies include at Node.js, [click here to install if you don't have](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#nvm), also install:
+
+```sh
+sudo apt-get install build-essential git libgnome-keyring-dev fakeroot
+```
+
+Installing
+
+```sh
+# clone the repository
+git clone https://github.com/atom/atom
+cd atom
+# checkout the latest release
+git fetch -p
+git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
+# building Atom
+script/build
+# installing to /usr/local/bin
+sudo script/grunt install
+```
+
+If you have more questions on how to build Atom from source, check [the Atom official guide](https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md). 
