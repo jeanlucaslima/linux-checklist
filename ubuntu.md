@@ -71,6 +71,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 To effectively change the terminal shell, you have to go to the menu Edit -> Profiles -> choose default -> click Edit button -> on new window go to tab "Title and Command" and add "/usr/bin/zsh" to "Run a custom command", example:
 
+![Screenshot ZSH](http://i.imgur.com/y5hvbKC.png)
 
 You can see my zsh file ```~/.zshrc``` [clicking here](https://github.com/jeanleonino/dotfiles/blob/master/.zshrc).
 
