@@ -218,6 +218,10 @@ You may want to check more info about Phoenix framework install here: http://www
 Some common editors for developers.
 
 ### vim
+Install vim
+```sh
+sudo apt-get install vim
+```
 Install Vundle to manage vim dependencies:
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -233,8 +237,6 @@ Inside vim, install all vim Vundle plugins:
 ```
 
 ~restart vim~
-
-[gvm_github]: https://github.com/moovweb/gvm
 
 ### Sublime Text 3 64 bits
 
@@ -289,3 +291,6 @@ sudo script/grunt install
 ```
 
 If you have more questions on how to build Atom from source, check [the Atom official guide](https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md). 
+
+
+[gvm_github]: https://github.com/moovweb/gvm
