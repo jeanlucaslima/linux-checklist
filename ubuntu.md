@@ -29,7 +29,16 @@ General utilities for to use Ubuntu.
 
 ### basics & utilities
 - [ ] Run ```sudo apt-get update```
-- [ ] Install basics ``` sudo apt-get install wget curl vim build-essential htop ```
+- [ ] Install basics ``` sudo apt-get install wget curl build-essential ```
+
+### htop
+htop is an interactive process viewer for Linux. It is much more friendly than top.
+
+![Screenshot htop](http://hisham.hm/htop/htop_graph.gif)
+
+```sh
+sudo apt-get install htop
+```
 
 ### git
 ```zsh
