@@ -3,6 +3,7 @@ Obs: This was tested for Ubuntu 14.04.
 
 ## Summary
 - [Tips](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#tips)
+  - [Backing up and restoring packages and settings](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#how-to-backup-and-restore-settings-and-list-of-installed-packages)
 - [General](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#general)
   - [basics and utilities](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#basics--utilities)
   - [htop](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#htop)
@@ -47,7 +48,8 @@ sudo dpkg --set-selections < ~/Package.list
 sudo dselect
 ```
 
-[Source](http://askubuntu.com/a/99151)
+[Source](http://askubuntu.com/a/99151).
+
 Thanks @EnLabWalt for the tip.
 
 ## General
