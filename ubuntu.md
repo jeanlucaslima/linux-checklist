@@ -2,7 +2,7 @@
 Obs: This was tested for Ubuntu 14.04.
 
 ## Summary
-
+- [Tips](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#tips)
 - [General](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#general)
   - [basics and utilities](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#basics--utilities)
   - [htop](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#htop)
@@ -25,6 +25,30 @@ Obs: This was tested for Ubuntu 14.04.
   - [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
   - [Sublime Text 3](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#sublime-text-3-64-bits)
   - [Atom](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#atom)
+
+## Tips
+
+### How to backup and restore settings and list of installed packages
+Backup
+```sh
+dpkg --get-selections > ~/Package.list
+sudo cp -R /etc/apt/sources.list* ~/
+sudo apt-key exportall > ~/Repo.keys
+rsync --progress /home/`whoami` /path/to/user/profile/backup/here
+```
+Restore
+```sh
+rsync --progress /path/to/user/profile/backup/here /home/`whoami`
+sudo apt-key add ~/Repo.keys
+sudo cp -R ~/sources.list* /etc/apt/
+sudo apt-get update
+sudo apt-get install dselect
+sudo dpkg --set-selections < ~/Package.list
+sudo dselect
+```
+
+[Source](http://askubuntu.com/a/99151)
+Thanks @EnLabWalt for the tip.
 
 ## General
 General utilities for to use Ubuntu. 
