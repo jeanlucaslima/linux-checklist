@@ -50,7 +50,7 @@ sudo dselect
 
 [Source](http://askubuntu.com/a/99151).
 
-Thanks @EnLabWalt for the tip.
+Thanks [@EnLabWalt](https://github.com/EnLabWalt) for the tip.
 
 ## General
 General utilities for to use Ubuntu. 
@@ -154,9 +154,9 @@ sudo apt-get install python-pip python-dev python-setuptools pylint python-softw
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 vim ~/.zshrc #Add nvm plugin to oh-my-zsh
 nvm ls-remote # pick your favorite version
-nvm install 0.12.7 # change for your version
-nvm use 0.12.7
-nvm alias default 0.12.7
+nvm install 5.3.0 # change for your version
+nvm use v5.3.0
+nvm alias default v5.3.0
 ```
 
 Interesting packages:
@@ -197,9 +197,9 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 You check if rbenv is working with ```type rbenv```. Now installing the new version and making it run locally.
 
 ```zsh
-rbenv install 2.2.3
-rbenv global 2.2.3
-rbenv local 2.2.3
+rbenv install 2.2.4
+rbenv global 2.2.4
+rbenv local 2.2.4
 ruby -v
 ```
 
