@@ -10,6 +10,7 @@ Obs: This was tested for Ubuntu 14.04.
   - [git](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#git)
   - [zsh & oh-my-zsh](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#zsh-and-oh-my-zsh)
   - [docker](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#docker)
+  - [Watchman](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#watchman)
 - [Languages and Development Frameworks](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#languages-and-development-frameworks)
   - [python](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#python)
   - [nvm - node version manager](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#nvm)
@@ -140,6 +141,27 @@ sudo ufw reload
 
 More instructions available on [Docker website](https://docs.docker.com/engine/installation/ubuntulinux/).
 Consider adding the docker plugin to oh-my-zsh.
+
+
+### Watchman
+Facebook Watchman exists to watch files and record when they change. It can also trigger actions (such as rebuilding assets) 
+when matching files change.
+
+Pre-requisites
+```sh
+sudo apt-get install autoconf autotools-dev
+```
+
+Installation
+```sh
+git clone https://github.com/facebook/watchman.git ~/.local/
+cd ~/.local/watchman
+git checkout v4.1.0  # the latest stable release
+./autogen.sh
+./configure
+make
+sudo make install
+```
 
 
 ## Languages and Development Frameworks
