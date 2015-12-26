@@ -163,6 +163,15 @@ make
 sudo make install
 ```
 
+### PhantomJS
+```sh
+git clone --recurse-submodules git://github.com/ariya/phantomjs.git ~/.local/
+cd ~/.local/phantomjs 
+./build.py
+```
+
+Warning: this may take **several** minutes. In my case, took 50 minutes. 
+
 
 ## Languages and Development Frameworks
 
