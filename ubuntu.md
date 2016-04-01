@@ -79,7 +79,10 @@ sudo apt-get install htop
 ```
 
 ### git
+To install latest version of git you need to add the PPA `git-core` and then install git:
 ```zsh
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
 sudo apt-get install git
 ``` 
 
@@ -185,9 +188,9 @@ sudo apt-get install python-pip python-dev python-setuptools pylint python-softw
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 vim ~/.zshrc #Add nvm plugin to oh-my-zsh
 nvm ls-remote # pick your favorite version
-nvm install 5.3.0 # change for your version
-nvm use v5.3.0
-nvm alias default v5.3.0
+nvm install 5.10.0 # change for your version
+nvm use v5.10.0
+nvm alias default v5.10.0
 ```
 
 Interesting packages:
