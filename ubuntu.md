@@ -123,6 +123,14 @@ sudo apt-get install gimp gimp-data gimp-plugin-registry gimp-data-extras
 ### Google Chrome
 Check [this](http://www.tecmint.com/install-google-chrome-in-debian-ubuntu-linux-mint/) tutorial.
 
+### Brave
+Instructions from [this link](https://github.com/brave/browser-laptop/releases):
+
+```sh
+wget -O brave.deb https://laptop-updates.brave.com/latest/dev/ubuntu64
+sudo dpkg -i ./brave.deb
+```
+
 ### docker
 Installation
 ```sh
