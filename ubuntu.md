@@ -25,6 +25,7 @@ Obs: This was tested for Ubuntu 14.04.
   - [phoenix](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#phoenix-framework)
 - [Editors and IDEs](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#editors-and-ides)
   - [vim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#vim)
+  - [Neovim](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#neovim)
   - [Sublime Text 3](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#sublime-text-3-64-bits)
   - [Atom](https://github.com/jeanleonino/linux-checklist/blob/master/ubuntu.md#atom)
 
@@ -332,6 +333,10 @@ Inside vim, install all vim Vundle plugins:
 ```
 
 ~restart vim~
+
+### Neovim
+Neovim is a vim-fork focused on extensibility and agility. Ubuntu instructions on how to install available [here](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu).
+
 
 ### Sublime Text 3 64 bits
 
